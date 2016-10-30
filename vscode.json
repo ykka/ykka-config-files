@@ -1,0 +1,62 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "editor.fontFamily": "Office Code Pro, SFMono-Light, Office Code Pro, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 12,
+    "editor.rulers": [ 80 ],
+    "editor.renderIndentGuides": false,
+    "editor.stablePeek": true,
+    "editor.quickSuggestionsDelay": 3,
+    "editor.acceptSuggestionOnEnter": false,
+    "window.openFilesInNewWindow": false,
+    "explorer.openEditors.visible": 0,
+
+    "css.lint.zeroUnits": "warning",
+    "css.lint.duplicateProperties": "warning",
+    "scss.lint.zeroUnits": "warning",
+    "scss.lint.duplicateProperties": "warning",
+    
+    "html.format.indentHandlebars": false,
+
+    "terminal.external.osxExec": "iTerm 2.app",
+
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+
+    "bookmarks.navigateThroughAllFiles": true,
+    "bookmarks.useStickyBookmarks": true,
+
+    "editor.wrappingColumn": -1,
+
+    "javascript.validate.enable": false, // disable soon
+
+    "jshint.options": {
+        "esversion": 6
+    },
+
+    "jshint.enable": false,
+
+    "files.associations": {
+        "*.scss.liquid": "scss",
+        "*.js.liquid": "javascript",
+        "*.*.js": "javascript",
+        "*.store.js": "javascript",
+        "*.source.js": "javascript",
+        "*.actions.js": "javascript",
+        "*.jsx": "javascript",
+        "*.layout.jsx": "javascript"
+    },
+
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.DS_Store": true,
+        "**/.jpg": true,
+        "**/.jpeg": true,
+        "**/.png": true,
+        "**/.svg": true,
+        "wp-content/uploads/": true,
+        "wp-includes/": true,
+        "wp-admin/": true,
+        "build": true
+    }
+}
